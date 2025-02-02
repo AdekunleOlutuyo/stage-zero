@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Latoß;
+  src: url();
+}
+
+body {
+  font-family: Lato;
+  background-image: linear-gradient(to bottom, #eaeaea, #cacaca, #726969);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  background: #a6a6a6;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 0px rgba(39, 81, 102, 0.281);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.profile-picture {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+h3 {
+  margin: 5px 0;
+  color: #666;
+}
+
+p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.social-links {
+  margin: 15px 0;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #567ba3;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+#currentTimeUTC {
+  font-size: 0.5em;
+  color: #2c2323;
+}
