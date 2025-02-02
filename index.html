@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+    </style>
+    <title>Adekunle's Profile Card</title>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="Assets/AOJ_2885.jpg"
+        alt="Profile Picture"
+        data-testid="profilePicture"
+        class="profile-picture"
+      />
+      <h2 data-testid="fullName">Adekunle Olutuyo Joshua</h2>
+      <h3 data-testid="jobTitle">Front-End Developer</h3>
+      <p data-testid="shortBio">
+        Hi there, I am an enthusiastic front-end developer with a knack for
+        building amazing and functional web applications. I look forward to
+        creating functional web apps for you.
+      </p>
+      <p data-testid="currentLocation">LAGOS, NG</p>
+      <p data-testid="emailAddress">olutuyo80@live.com</p>
+      <div class="social-links" data-testid="socialLinks">
+        <a
+          href="https://www.linkedin.com/in/adekunle-olutuyo-116683186/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/AdekunleOlutuyo" target="_blank">GitHub</a>
+        <a href="https://twitter.com/joshtuyo" target="_blank">Twitter</a>
+      </div>
+      <p data-testid="currentTimeUTC" id="currentTimeUTC"></p>
+    </div>
+
+    <script src="time.js"></script>
+  </body>
+</html>
